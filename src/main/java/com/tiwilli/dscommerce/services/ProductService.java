@@ -1,7 +1,9 @@
 package com.tiwilli.dscommerce.services;
 
+import com.tiwilli.dscommerce.dto.CategoryDTO;
 import com.tiwilli.dscommerce.dto.ProductDTO;
 import com.tiwilli.dscommerce.dto.ProductMinDTO;
+import com.tiwilli.dscommerce.entities.Category;
 import com.tiwilli.dscommerce.entities.Product;
 import com.tiwilli.dscommerce.repositories.ProductRepository;
 import com.tiwilli.dscommerce.services.exceptions.DatabaseException;
@@ -73,5 +75,12 @@ public class ProductService {
         entity.setDescription(dto.getDescription());
         entity.setPrice(dto.getPrice());
         entity.setImgUrl(dto.getImgUrl());
+
+        entity.getCategories().clear();
+        for (CategoryDTO catDto : dto.getCategories()) {
+            Category cat = new Category();
+            cat.setId(catDto.getId());
+            entity.getCategories().add(cat);
+        }
     }
 }
