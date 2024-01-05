@@ -1,7 +1,7 @@
 # DSCommerce
 
 ## Sobre o projeto
-A aplicação foi construieda em Java utilizando Spring Boot como framework. O projeto consiste em um sistema e-commerce com tela de login e carrinho de compras, autenticação de usuário e acesso administrativo para inserção, atualização e deleção de produtos. O código foi construído através de padrões de projeto utilizando arquitetura em camadas e aplicando boas práticas.
+A aplicação foi construída em Java utilizando Spring Boot como framework. O projeto consiste em um sistema e-commerce com tela de login e carrinho de compras, autenticação de usuário e acesso administrativo para inserção, atualização e deleção de produtos. O código foi construído através de padrões de projeto utilizando arquitetura em camadas e aplicando boas práticas.
 
 ## Modelo de domínio
 ![Modelo de domínio](https://github.com/ti-willi/assets/blob/main/dscommerce/modelo%20dominio.png)
