@@ -1,7 +1,7 @@
 # DSCommerce
 
 ## Sobre o projeto
-A aplicação foi construieda em Java utilizando Spring Boot como framework. O projeto consiste em um sistema e-commerce com tela de login e carrinho de compras, autenticação de usuário e acesso administrativo para inserção, atualização e deleção de produtos. O código foi construído em uma padrão de arquitetura em camadas, utilizando boas práticas.
+A aplicação foi construieda em Java utilizando Spring Boot como framework. O projeto consiste em um sistema e-commerce com tela de login e carrinho de compras, autenticação de usuário e acesso administrativo para inserção, atualização e deleção de produtos. O código foi construído através de padrões de projeto utilizando arquitetura em camadas e aplicando boas práticas.
 
 ## Modelo de domínio
 ![Modelo de domínio](https://github.com/ti-willi/assets/blob/main/dscommerce/modelo%20dominio.png)
@@ -18,13 +18,15 @@ A aplicação foi construieda em Java utilizando Spring Boot como framework. O p
 - OAuth2
 
 ## Como executar 
+`Pré-requisitos: Java 17, Intelij ou Spring Tool Suite, Postman`
 
 - Clonar o repositório
-`git@github.com:ti-willi/dscommerce.git`
-
+```
+git@github.com:ti-willi/dscommerce.git
+```
 - Abra o projeto em sua IDE (Spring Tool Suite / Intelij)
 
-- No postan, importe a collection json(`dentro da pasta JSON`) para realizar os testes
+- No postman, importe a collection e o environment dentro da pasta JSON para testar os recursos
 
 
 
