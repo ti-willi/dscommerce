@@ -18,13 +18,13 @@ A aplicação foi construída em Java utilizando Spring Boot como framework. O p
 - OAuth2
 
 ## Como executar 
-`Pré-requisitos: Java 17, Intelij ou Spring Tool Suite, Postman`
+`Pré-requisitos: Java 17`
 
 - Clonar o repositório
 ```
 git@github.com:ti-willi/dscommerce.git
 ```
-- Abra o projeto em sua IDE (Spring Tool Suite / Intelij)
+- Abra o projeto em sua IDE
 
 - No postman, importe a collection e o environment dentro da pasta JSON para testar os recursos
 
