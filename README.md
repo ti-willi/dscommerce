@@ -11,9 +11,10 @@ A aplicação foi construída em Java utilizando Spring Boot como framework. O p
 
 ## Tecnologias utilizadas
 - Java 17
+- Maven
 - Spring Boot / Data / Secutiry
 - JPA / Hibernate
-- Maven
+- Banco H2
 - JWT
 - OAuth2
 
