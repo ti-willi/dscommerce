@@ -18,7 +18,7 @@ A aplicação foi construída em Java utilizando Spring Boot como framework. O p
 - OAuth2
 
 ## Como executar 
-`Pré-requisitos: Java 17`
+`Pré-requisitos: Java 17+`
 
 - Clonar o repositório
 ```
