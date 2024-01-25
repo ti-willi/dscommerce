@@ -27,7 +27,7 @@ git@github.com:ti-willi/dscommerce.git
 ```
 - Abra o projeto em sua IDE
 
-- No postman, importe a collection e o environment dentro da pasta JSON para testar os recursos
+- No postman, importe a collection e o environment dentro da pasta postman para testar os recursos
 
 
 
