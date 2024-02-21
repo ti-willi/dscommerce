@@ -89,6 +89,8 @@
 						<exclude>com/tiwilli/dscommerce/dto/**</exclude>
 						<exclude>com/tiwilli/dscommerce/controllers/handlers/**</exclude>
 						<exclude>com/tiwilli/dscommerce/services/exceptions/**</exclude>
+						<exclude>com/tiwilli/dscommerce/util/**</exclude>
+						<exclude>com/tiwilli/dscommerce/controllers/**</exclude>
 					</excludes>
 				</configuration>
 				<executions>

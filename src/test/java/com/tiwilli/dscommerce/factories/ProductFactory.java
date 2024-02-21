@@ -1,5 +1,6 @@
 package com.tiwilli.dscommerce.factories;
 
+import com.tiwilli.dscommerce.dto.ProductDTO;
 import com.tiwilli.dscommerce.entities.Category;
 import com.tiwilli.dscommerce.entities.Product;
 
@@ -18,5 +19,9 @@ public class ProductFactory {
         Product product = createProduct();
         product.setName(name);
         return product;
+    }
+
+    public static ProductDTO createProductDTO(Product entity) {
+        return new ProductDTO(entity);
     }
 }
