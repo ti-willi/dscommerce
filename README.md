@@ -14,7 +14,7 @@ O projeto consiste em um sistema e-commerce com tela de login e carrinho de comp
 ## Tecnologias utilizadas
 - Java 17
 - Maven
-- Spring Boot / Data / Secutiry
+- Spring Boot / Data / Security
 - JPA / Hibernate
 - Banco H2
 - JWT
